@@ -1,0 +1,80 @@
+body{
+  background-color: #F5F5F5;}
+
+  div {
+    font-family:Arial;
+    
+  }
+
+.gallery{
+  display: flex;
+  width: 700px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;}
+
+figure {
+  width: 200px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  padding: 8px;
+  box-sizing: border-box;
+  Font-family:Arial;
+  background-color: #fff;}
+
+figure img {
+  width: 100%;}
+
+figure figcaption{ 
+  text-align: center;
+  padding: 8px 4px;}
+
+  h1 {
+  color: #1C2927;
+  font-family:Arial;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  }
+
+  .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit; 
+  float: left;
+  position: relative;
+  left: 45%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ccc;
+}
+
+.tab button.active {
+  background-color: #ddd;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
