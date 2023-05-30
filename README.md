@@ -3,7 +3,7 @@
 <tr>
 <td align="center" valign="center">
 
-<b>Um minissite que reúne imagens de diferentes tipos de macarrões.</b>
+<b>Uma mini galeria que reúne imagens de diferentes tipos de macarrões.</b>
 <br>
 Atividade feita na aula semanal da minha faculdade, Sitemas Para Internet.
 <br>
